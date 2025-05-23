@@ -135,6 +135,8 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+myenv/
+
 
 # Spyder project settings
 .spyderproject
@@ -172,3 +174,47 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Virtual environment
+myenv/
+
+# Logs
+logs/
+*.log
+
+# Database
+movies_series.db
+
+# Images
+data/images/
+# Python-specific
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Project-specific data and logs
+data/database/
+data/images/
+logs/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Miscellaneous
+*.log
+*.bak
+*.swp
